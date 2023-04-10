@@ -10,6 +10,12 @@ public class Datatype03 {
         System.out.println(ch2);
         System.out.println(ch3);
         System.out.println(ch4);
+
+        //이것도 가능
+        System.out.printf("%c\n",'J');
+        System.out.printf("%c\n",'a');
+        System.out.printf("%c\n",'v');
+        System.out.printf("%c\n",'a');
     }
     
 }
