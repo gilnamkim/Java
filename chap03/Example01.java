@@ -5,10 +5,10 @@ public class Example01 {
         int x = 10, y = 20;
 
         //연산자 모음입니다
-        System.out.println("x + y ="+(x+y));
-        System.out.println("x - y ="+(x-y));
-        System.out.println("x * y ="+(x*y));
-        System.out.println("x / y ="+(x/y));
-        System.out.println("x % y ="+(x%y));
+        System.out.println("x + y = "+(x+y));
+        System.out.println("x - y = "+(x-y));
+        System.out.println("x * y = "+(x*y));
+        System.out.println("x / y = "+(x/y));
+        System.out.println("x % y = "+(x%y));
     }
 }
