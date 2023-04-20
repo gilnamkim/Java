@@ -8,6 +8,11 @@ public class Cat {
         System.out.println("Cat() 생성자 호출합니다.");
     }
 
+    Cat(String pbreed) {
+        System.out.println("Cat(...) 생성자 호출합니다.");
+        breed = pbreed;
+    }
+
     void eat() {
         System.out.println("먹이를 먹다");
     }
