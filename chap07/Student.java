@@ -7,7 +7,13 @@ public class Student {
     Student() {
         System.out.println("기본 생성자 Student() 호출");
     }
-    
+
+    Student(int parm1, String parm2) {
+        System.out.println("일반 생성자 Student(...) 호출");
+        id = parm1;
+        name = parm2;
+    }
+
     void insertRecord(int parm1, String parm2) {
         id = parm1;
         name = parm2;
