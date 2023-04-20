@@ -8,9 +8,15 @@ public class Cat {
         System.out.println("Cat() 생성자 호출합니다.");
     }
 
-    Cat(String pbreed) {
+    Cat(String pBreed) {
         System.out.println("Cat(...) 생성자 호출합니다.");
-        breed = pbreed;
+        breed = pBreed;
+    }
+
+    Cat(String pBreed, String pColor) {
+        System.out.println("Cat(... , ...) 생성자 호출합니다.");
+        breed = pBreed;
+        color = pColor;
     }
 
     void eat() {
