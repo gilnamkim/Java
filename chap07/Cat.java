@@ -4,6 +4,10 @@ public class Cat {
     String breed;
     String color;
     
+    Cat() {
+        System.out.println("Cat() 생성자 호출합니다.");
+    }
+
     void eat() {
         System.out.println("먹이를 먹다");
     }
